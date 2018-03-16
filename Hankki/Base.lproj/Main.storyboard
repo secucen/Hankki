@@ -10,70 +10,184 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Today-->
+        <!--Config-->
         <scene sceneID="g2g-KJ-V1v">
             <objects>
-                <viewController id="zPP-mc-koH" sceneMemberID="viewController">
+                <viewController title="Config" id="zPP-mc-koH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UrE-TF-Z34">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acl-S7-Fdr">
+                                <rect key="frame" x="276" y="221" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="알 람" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fn0-Wj-R3L">
+                                <rect key="frame" x="51" y="221" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="요 일" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9AC-5c-fkj">
+                                <rect key="frame" x="51" y="293" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="점심 시간" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E22-iE-8g4">
+                                <rect key="frame" x="51" y="357" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="저녁 시간" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mRn-am-7p7">
+                                <rect key="frame" x="51" y="416" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Config" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ti2-z3-x8l">
+                                <rect key="frame" x="95" y="20" width="184" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Y6F-42-YW5"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Today" id="30y-hB-kHg"/>
+                    <tabBarItem key="tabBarItem" title="Config" image="settings.png" id="30y-hB-kHg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jxp-cx-Tjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1951" y="833"/>
+            <point key="canvasLocation" x="-241" y="833"/>
         </scene>
         <!--Weekly-->
         <scene sceneID="cCd-q8-kR5">
             <objects>
-                <viewController id="uaR-qL-Vii" sceneMemberID="viewController">
+                <viewController title="Weekly" id="uaR-qL-Vii" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9GG-RX-UPR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weekly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2t-qR-N6e">
+                                <rect key="frame" x="95" y="20" width="184" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="iNw-ev-vKX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Weekly" id="9wz-FB-iYf"/>
+                    <navigationItem key="navigationItem" id="Dz5-Jm-xGA"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VyB-oe-kW4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1306" y="833"/>
+            <point key="canvasLocation" x="-930" y="1576"/>
         </scene>
-        <!--Config-->
+        <!--Today-->
         <scene sceneID="awq-4d-J0e">
             <objects>
-                <viewController id="xqG-kG-eGL" sceneMemberID="viewController">
+                <viewController title="Today" id="xqG-kG-eGL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJI-nG-8Or">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UG0-ka-mIB">
+                                <rect key="frame" x="95" y="20" width="184" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="nBf-9Z-Daf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Config" id="NRg-e6-Mmv"/>
+                    <navigationItem key="navigationItem" id="RYe-CM-SZW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hlI-kk-eBy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-671" y="833"/>
+            <point key="canvasLocation" x="-1628" y="1577"/>
         </scene>
         <!--Info-->
         <scene sceneID="sYB-vE-kvM">
             <objects>
-                <viewController id="x1T-8N-JIV" sceneMemberID="viewController">
+                <viewController title="Info" id="x1T-8N-JIV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QAJ-8F-VWN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="개발자 정보" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nYx-Pk-3P2">
+                                <rect key="frame" x="26" y="337" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="버전 정보" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZFq-lw-wzI">
+                                <rect key="frame" x="26" y="407" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="앱 해시값" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rxA-zb-n1L">
+                                <rect key="frame" x="26" y="487" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="secucen.Cop" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Qz-PI-GeJ">
+                                <rect key="frame" x="155" y="337" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="v1.1.1" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NWX-j0-Ho7">
+                                <rect key="frame" x="155" y="407" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4u4jrki3jrj4u4jwk24j6d9f9" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dJD-lX-uGc">
+                                <rect key="frame" x="155" y="487" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon-sana.png" translatesAutoresizingMaskIntoConstraints="NO" id="UdJ-qC-hUr">
+                                <rect key="frame" x="67" y="150" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSq-iH-lS8">
+                                <rect key="frame" x="95" y="20" width="184" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="eid-kO-nk6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" id="WwA-An-rP4"/>
+                    <tabBarItem key="tabBarItem" title="Info." image="info.png" id="WwA-An-rP4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UMP-Fa-Xd1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10" y="833"/>
+            <point key="canvasLocation" x="434" y="833"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="OFi-h9-Iow">
@@ -85,15 +199,60 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="xqG-kG-eGL" kind="relationship" relationship="viewControllers" id="8dh-rL-Cpc"/>
-                        <segue destination="uaR-qL-Vii" kind="relationship" relationship="viewControllers" id="w5D-PT-Czb"/>
+                        <segue destination="GBy-T3-bYa" kind="relationship" relationship="viewControllers" id="8dh-rL-Cpc"/>
+                        <segue destination="nQc-lm-dwP" kind="relationship" relationship="viewControllers" id="w5D-PT-Czb"/>
                         <segue destination="zPP-mc-koH" kind="relationship" relationship="viewControllers" id="Eo6-3P-Q9U"/>
                         <segue destination="x1T-8N-JIV" kind="relationship" relationship="viewControllers" id="w6Q-vy-xFZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yXu-SK-pUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-994" y="10"/>
+            <point key="canvasLocation" x="-639" y="21"/>
+        </scene>
+        <!--Today-->
+        <scene sceneID="P2d-PH-sgb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GBy-T3-bYa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Today" image="fork-knife.png" id="NRg-e6-Mmv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h7E-ZZ-oDA">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xqG-kG-eGL" kind="relationship" relationship="rootViewController" id="ztj-OH-OtJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0g-Cg-mfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1628" y="833"/>
+        </scene>
+        <!--Weekly-->
+        <scene sceneID="3lS-47-0GA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nQc-lm-dwP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Weekly" image="calendar-7.png" id="9wz-FB-iYf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oO3-rL-bET">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uaR-qL-Vii" kind="relationship" relationship="rootViewController" id="4uT-Rv-MAf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hov-SM-xur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-930" y="833"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon-sana.png" width="180" height="180"/>
+        <image name="calendar-7.png" width="30" height="30"/>
+        <image name="fork-knife.png" width="30" height="30"/>
+        <image name="info.png" width="30" height="30"/>
+        <image name="settings.png" width="30" height="30"/>
+    </resources>
 </document>
