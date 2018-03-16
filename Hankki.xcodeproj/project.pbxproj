@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314E2768205B49A700F7766E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 314E2767205B49A700F7766E /* AppDelegate.m */; };
+		314E276B205B49A700F7766E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314E276A205B49A700F7766E /* ViewController.m */; };
+		314E276E205B49A700F7766E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314E276C205B49A700F7766E /* Main.storyboard */; };
+		314E2770205B49A700F7766E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314E276F205B49A700F7766E /* Assets.xcassets */; };
+		314E2773205B49A700F7766E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314E2771205B49A700F7766E /* LaunchScreen.storyboard */; };
+		314E2776205B49A700F7766E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 314E2775205B49A700F7766E /* main.m */; };
+		314E2780205B49A700F7766E /* HankkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314E277F205B49A700F7766E /* HankkiTests.m */; };
+		314E278B205B49A700F7766E /* HankkiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314E278A205B49A700F7766E /* HankkiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314E277C205B49A700F7766E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314E275B205B49A700F7766E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314E2762205B49A700F7766E;
+			remoteInfo = Hankki;
+		};
+		314E2787205B49A700F7766E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314E275B205B49A700F7766E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314E2762205B49A700F7766E;
+			remoteInfo = Hankki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		314E2763205B49A700F7766E /* Hankki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hankki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		314E2766205B49A700F7766E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		314E2767205B49A700F7766E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		314E2769205B49A700F7766E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		314E276A205B49A700F7766E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		314E276D205B49A700F7766E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		314E276F205B49A700F7766E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		314E2772205B49A700F7766E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		314E2774205B49A700F7766E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314E2775205B49A700F7766E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		314E277B205B49A700F7766E /* HankkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HankkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314E277F205B49A700F7766E /* HankkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HankkiTests.m; sourceTree = "<group>"; };
+		314E2781205B49A700F7766E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314E2786205B49A700F7766E /* HankkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HankkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314E278A205B49A700F7766E /* HankkiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HankkiUITests.m; sourceTree = "<group>"; };
+		314E278C205B49A700F7766E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314E2760205B49A700F7766E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314E2778205B49A700F7766E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314E2783205B49A700F7766E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314E275A205B49A700F7766E = {
+			isa = PBXGroup;
+			children = (
+				314E2765205B49A700F7766E /* Hankki */,
+				314E277E205B49A700F7766E /* HankkiTests */,
+				314E2789205B49A700F7766E /* HankkiUITests */,
+				314E2764205B49A700F7766E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		314E2764205B49A700F7766E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314E2763205B49A700F7766E /* Hankki.app */,
+				314E277B205B49A700F7766E /* HankkiTests.xctest */,
+				314E2786205B49A700F7766E /* HankkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314E2765205B49A700F7766E /* Hankki */ = {
+			isa = PBXGroup;
+			children = (
+				314E2766205B49A700F7766E /* AppDelegate.h */,
+				314E2767205B49A700F7766E /* AppDelegate.m */,
+				314E2769205B49A700F7766E /* ViewController.h */,
+				314E276A205B49A700F7766E /* ViewController.m */,
+				314E276C205B49A700F7766E /* Main.storyboard */,
+				314E276F205B49A700F7766E /* Assets.xcassets */,
+				314E2771205B49A700F7766E /* LaunchScreen.storyboard */,
+				314E2774205B49A700F7766E /* Info.plist */,
+				314E2775205B49A700F7766E /* main.m */,
+			);
+			path = Hankki;
+			sourceTree = "<group>";
+		};
+		314E277E205B49A700F7766E /* HankkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				314E277F205B49A700F7766E /* HankkiTests.m */,
+				314E2781205B49A700F7766E /* Info.plist */,
+			);
+			path = HankkiTests;
+			sourceTree = "<group>";
+		};
+		314E2789205B49A700F7766E /* HankkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				314E278A205B49A700F7766E /* HankkiUITests.m */,
+				314E278C205B49A700F7766E /* Info.plist */,
+			);
+			path = HankkiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314E2762205B49A700F7766E /* Hankki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314E278F205B49A700F7766E /* Build configuration list for PBXNativeTarget "Hankki" */;
+			buildPhases = (
+				314E275F205B49A700F7766E /* Sources */,
+				314E2760205B49A700F7766E /* Frameworks */,
+				314E2761205B49A700F7766E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hankki;
+			productName = Hankki;
+			productReference = 314E2763205B49A700F7766E /* Hankki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		314E277A205B49A700F7766E /* HankkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314E2792205B49A700F7766E /* Build configuration list for PBXNativeTarget "HankkiTests" */;
+			buildPhases = (
+				314E2777205B49A700F7766E /* Sources */,
+				314E2778205B49A700F7766E /* Frameworks */,
+				314E2779205B49A700F7766E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314E277D205B49A700F7766E /* PBXTargetDependency */,
+			);
+			name = HankkiTests;
+			productName = HankkiTests;
+			productReference = 314E277B205B49A700F7766E /* HankkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		314E2785205B49A700F7766E /* HankkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314E2795205B49A700F7766E /* Build configuration list for PBXNativeTarget "HankkiUITests" */;
+			buildPhases = (
+				314E2782205B49A700F7766E /* Sources */,
+				314E2783205B49A700F7766E /* Frameworks */,
+				314E2784205B49A700F7766E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314E2788205B49A700F7766E /* PBXTargetDependency */,
+			);
+			name = HankkiUITests;
+			productName = HankkiUITests;
+			productReference = 314E2786205B49A700F7766E /* HankkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314E275B205B49A700F7766E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = secucen;
+				TargetAttributes = {
+					314E2762205B49A700F7766E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					314E277A205B49A700F7766E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 314E2762205B49A700F7766E;
+					};
+					314E2785205B49A700F7766E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 314E2762205B49A700F7766E;
+					};
+				};
+			};
+			buildConfigurationList = 314E275E205B49A700F7766E /* Build configuration list for PBXProject "Hankki" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 314E275A205B49A700F7766E;
+			productRefGroup = 314E2764205B49A700F7766E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314E2762205B49A700F7766E /* Hankki */,
+				314E277A205B49A700F7766E /* HankkiTests */,
+				314E2785205B49A700F7766E /* HankkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314E2761205B49A700F7766E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314E2773205B49A700F7766E /* LaunchScreen.storyboard in Resources */,
+				314E2770205B49A700F7766E /* Assets.xcassets in Resources */,
+				314E276E205B49A700F7766E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314E2779205B49A700F7766E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314E2784205B49A700F7766E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314E275F205B49A700F7766E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314E276B205B49A700F7766E /* ViewController.m in Sources */,
+				314E2776205B49A700F7766E /* main.m in Sources */,
+				314E2768205B49A700F7766E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314E2777205B49A700F7766E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314E2780205B49A700F7766E /* HankkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314E2782205B49A700F7766E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314E278B205B49A700F7766E /* HankkiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314E277D205B49A700F7766E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314E2762205B49A700F7766E /* Hankki */;
+			targetProxy = 314E277C205B49A700F7766E /* PBXContainerItemProxy */;
+		};
+		314E2788205B49A700F7766E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314E2762205B49A700F7766E /* Hankki */;
+			targetProxy = 314E2787205B49A700F7766E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		314E276C205B49A700F7766E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314E276D205B49A700F7766E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		314E2771205B49A700F7766E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314E2772205B49A700F7766E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		314E278D205B49A700F7766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		314E278E205B49A700F7766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314E2790205B49A700F7766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hankki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secucen.Hankki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		314E2791205B49A700F7766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hankki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secucen.Hankki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		314E2793205B49A700F7766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HankkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secucen.HankkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hankki.app/Hankki";
+			};
+			name = Debug;
+		};
+		314E2794205B49A700F7766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HankkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secucen.HankkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hankki.app/Hankki";
+			};
+			name = Release;
+		};
+		314E2796205B49A700F7766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HankkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secucen.HankkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hankki;
+			};
+			name = Debug;
+		};
+		314E2797205B49A700F7766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HankkiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secucen.HankkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hankki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314E275E205B49A700F7766E /* Build configuration list for PBXProject "Hankki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314E278D205B49A700F7766E /* Debug */,
+				314E278E205B49A700F7766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314E278F205B49A700F7766E /* Build configuration list for PBXNativeTarget "Hankki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314E2790205B49A700F7766E /* Debug */,
+				314E2791205B49A700F7766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314E2792205B49A700F7766E /* Build configuration list for PBXNativeTarget "HankkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314E2793205B49A700F7766E /* Debug */,
+				314E2794205B49A700F7766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314E2795205B49A700F7766E /* Build configuration list for PBXNativeTarget "HankkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314E2796205B49A700F7766E /* Debug */,
+				314E2797205B49A700F7766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314E275B205B49A700F7766E /* Project object */;
+}
